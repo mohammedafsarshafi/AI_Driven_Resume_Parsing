@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, rgba(139, 198, 236, 0.8), rgba(149, 153, 226, 0.8), rgba(255, 255, 255, 0.4));
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    background: url('dried-leaves-gray-blank-background.jpg') no-repeat center center/cover;
+}
+
+.container {
+    width: 100%;
+    max-width: 450px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    backdrop-filter: blur(10px);
+}
+
+h2 {
+    color: black;
+    text-align: center;
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 12px 15px;
+    border: none;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.3);
+    color: black;
+    font-size: 14px;
+    text-align: left;
+}
+
+.form-group input:focus {
+    outline: none;
+    border: 2px solid #4a90e2;
+}
+
+.btn {
+    width: 100%;
+    padding: 14px;
+    background-color: #6a85b6;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    align-self: center;
+}
+
+.btn:hover {
+    background-color: #5a6f9c;
+}
+
+p {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.login-heading {
+    display: inline-flex;
+    align-items: center; 
+    gap: 10px; 
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+}
+
+.login-icon {
+    width: 35px; 
+    height: auto;
+}
+.input-container {
+    display: flex;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 8px;
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.input-container i {
+    font-size: 16px;
+    margin-right: 10px;
+    color: #76797d;
+}
+
+.input-container input {
+    flex: 1;
+    border: none;
+    background: transparent;
+    outline: none;
+    font-size: 14px;
+    color: black;
+    padding: 8px;
+}
